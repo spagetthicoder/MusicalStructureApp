@@ -24,6 +24,7 @@ public class Songs extends AppCompatActivity {
                 Intent playNowIntent = new Intent(Songs.this, PlayNow.class);
 
                 startActivity(playNowIntent);
+                finish();
             }
         });
 
@@ -35,6 +36,7 @@ public class Songs extends AppCompatActivity {
                 Intent artistsIntent = new Intent(Songs.this, Artists.class);
 
                 startActivity(artistsIntent);
+                finish();
             }
         });
 
@@ -46,6 +48,7 @@ public class Songs extends AppCompatActivity {
                 Intent playlistsIntent = new Intent(Songs.this, Playlists.class);
 
                 startActivity(playlistsIntent);
+                finish();
             }
         });
 
@@ -57,6 +60,7 @@ public class Songs extends AppCompatActivity {
                 Intent foldersIntent = new Intent(Songs.this, Folders.class);
 
                 startActivity(foldersIntent);
+                finish();
             }
         });
     }

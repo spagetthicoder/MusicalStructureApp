@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureapp.PlayNow">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo500"
+        android:gravity="center"
+        android:text="Play Now Activity"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -155,7 +163,7 @@
             android:gravity="center"
             android:text="Dr. Dre - Still Dre"
             android:textColor="@color/indigo500"
-            android:textSize="40dp" />
+            android:textSize="40sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

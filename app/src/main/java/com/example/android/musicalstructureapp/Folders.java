@@ -32,6 +32,7 @@ public class Folders extends AppCompatActivity {
                 Intent songsIntent = new Intent(Folders.this, Songs.class);
 
                 startActivity(songsIntent);
+                finish();
             }
         });
 
@@ -43,6 +44,7 @@ public class Folders extends AppCompatActivity {
                 Intent artistsIntent = new Intent(Folders.this, Artists.class);
 
                 startActivity(artistsIntent);
+                finish();
             }
         });
 
@@ -54,6 +56,7 @@ public class Folders extends AppCompatActivity {
                 Intent playlistsIntent = new Intent(Folders.this, Playlists.class);
 
                 startActivity(playlistsIntent);
+                finish();
             }
         });
     }

@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureapp.Artists">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo500"
+        android:gravity="center"
+        android:text="Folders Activity"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

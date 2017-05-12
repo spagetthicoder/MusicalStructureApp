@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructureapp.Artists">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo500"
+        android:gravity="center"
+        android:text="Artists Activity"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -90,7 +98,7 @@
                     android:layout_margin="5dp"
                     android:gravity="end"
                     android:text="2001" />
-                
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

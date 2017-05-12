@@ -1,6 +1,7 @@
 package com.example.android.musicalstructureapp;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class PlayNow extends AppCompatActivity {
                 Intent artistsIntent = new Intent(PlayNow.this, Artists.class);
 
                 startActivity(artistsIntent);
+                finish();
             }
         });
 
@@ -34,6 +36,7 @@ public class PlayNow extends AppCompatActivity {
                 Intent songsIntent = new Intent(PlayNow.this, Songs.class);
 
                 startActivity(songsIntent);
+                finish();
             }
         });
 
@@ -45,6 +48,7 @@ public class PlayNow extends AppCompatActivity {
                 Intent playlistsIntent = new Intent(PlayNow.this, Playlists.class);
 
                 startActivity(playlistsIntent);
+                finish();
             }
         });
 
@@ -56,6 +60,7 @@ public class PlayNow extends AppCompatActivity {
                 Intent foldersIntent = new Intent(PlayNow.this, Folders.class);
 
                 startActivity(foldersIntent);
+                finish();
             }
         });
     }
