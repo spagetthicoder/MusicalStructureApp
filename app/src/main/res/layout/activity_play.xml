@@ -73,6 +73,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lessLightBlue"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="In this activity the user can play music. The music is going to be played using the MediaPlayer library."
+            android:textStyle="bold" />
+
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
